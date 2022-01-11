@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T21:39:34.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="JITiYzs8PmPoHjtAF2e-" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-11T21:46:54.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="LD6g_k5t4IqdVuEiEhzx" version="16.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="786" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,6 +6,9 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="&lt;div style=&quot;text-align: left&quot;&gt;Upload screen:&lt;/div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left&quot;&gt;Upload PDF document as input&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;Call server API to extract content into assets and json&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;Show progress indicator until PDF extraction process has completed&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="100" y="80" width="220" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qAY0Py7M_4yzTQqkFhBM-0" value="&lt;div style=&quot;text-align: left&quot;&gt;Content result display screen:&lt;/div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left&quot;&gt;Render PDF extraction result JSON&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Call summarize API to get summary of entire document&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Allow user to highlight texts in PDF extraction results, and call summarize API to get summary of highlighted text, and display it&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;*Allow user to enter propmpt, and call Q&amp;amp;A API to get potential answer, then display it. (stretch goal)&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="80" width="220" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
